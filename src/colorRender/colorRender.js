@@ -23,3 +23,4 @@ export default function ColorRender (){
         key = {color.hex}
         />)
 }
+
