@@ -35,12 +35,19 @@ button{
 .dark-mode {
   background-color: #171717;
 }
-.form{
-  display:flex;
-  align-items: ;
-  justify-content: center;
+input, label {
+  display: block;
+  margin: 8px auto;
 }
-input{
-  display: inline-block;
 
+input {
+  padding: 8px;
+  width: 300px;
+}
+
+input[type=submit] {
+  width: 100px;
+}
+form{
+  justify-content: center;
 }
