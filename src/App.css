@@ -35,3 +35,12 @@ button{
 .dark-mode {
   background-color: #171717;
 }
+.form{
+  display:flex;
+  align-items: ;
+  justify-content: center;
+}
+input{
+  display: inline-block;
+
+}
