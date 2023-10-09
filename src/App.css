@@ -35,19 +35,14 @@ button{
 .dark-mode {
   background-color: #171717;
 }
-input, label {
+
+input,label,h2{
   display: block;
   margin: 8px auto;
-}
-
-input {
   padding: 8px;
   width: 300px;
 }
 
 input[type=submit] {
   width: 100px;
-}
-form{
-  justify-content: center;
 }
