@@ -2,7 +2,8 @@ import './App.css';
 // import ColorRender from './colorRender/colorRender';
 // import DarkMode from './dark-mode/dark-mode';
 // import UsersLogin from './form-validation/userDetails';
-import FetchDogPics from './dog-pictures/dog-pictures';
+// import FetchDogPics from './dog-pictures/dog-pictures';
+import ScoreKeeper from './score-keeper/score-keeper';
 
 function App() {
   return (
@@ -11,7 +12,8 @@ function App() {
         {/* <ColorRender/> */}
         {/* <DarkMode/> */}
         {/* <UsersLogin/> */}
-        <FetchDogPics/>
+        {/* <FetchDogPics/> */}
+        <ScoreKeeper/>
 
 
 
