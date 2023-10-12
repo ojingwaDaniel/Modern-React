@@ -3,7 +3,8 @@ import './App.css';
 // import DarkMode from './dark-mode/dark-mode';
 // import UsersLogin from './form-validation/userDetails';
 // import FetchDogPics from './dog-pictures/dog-pictures';
-import ScoreKeeper from './score-keeper/score-keeper';
+// import ScoreKeeper from './score-keeper/score-keeper';
+import WindowEvent from './windowEvent/window-event';
 
 function App() {
   return (
@@ -13,7 +14,8 @@ function App() {
         {/* <DarkMode/> */}
         {/* <UsersLogin/> */}
         {/* <FetchDogPics/> */}
-        <ScoreKeeper/>
+        {/* <ScoreKeeper/> */}
+        <WindowEvent/>
 
 
 
