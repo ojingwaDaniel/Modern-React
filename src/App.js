@@ -1,7 +1,8 @@
 import './App.css';
 // import ColorRender from './colorRender/colorRender';
 // import DarkMode from './dark-mode/dark-mode';
-import UsersLogin from './form-validation/userDetails';
+// import UsersLogin from './form-validation/userDetails';
+import FetchDogPics from './dog-pictures/dog-pictures';
 
 function App() {
   return (
@@ -9,7 +10,9 @@ function App() {
       <header className="App-header">
         {/* <ColorRender/> */}
         {/* <DarkMode/> */}
-        <UsersLogin/>
+        {/* <UsersLogin/> */}
+        <FetchDogPics/>
+
 
 
 
