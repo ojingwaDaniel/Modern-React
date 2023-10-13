@@ -17,7 +17,8 @@ export default function WindowEvent (){
 
     return(
         <div>
-            <button type="button" onClick={()=>setWindowEvent(prevState=> !prevState)}>Toggle Window Event</button>
+            <button type="button" onClick={()=>setWindowEvent(prevState=> !prevState)}>Toggle Window Event </button>
+            <footer>@ copyright Ojingwa Daniel</footer>
         </div>
     )
 }
