@@ -1,13 +1,12 @@
-import { useEffect, useState } from "react";
+import { useEffect } from "react";
 
 
 export default function WindowEvent (){
-    const [windowEvent, setWindowEvent] = useState(false);
     const DbClick = ()=> alert('you doubled clicked ')
     useEffect(()=>{
-        window.addEventListener('dblclick',DbClick())
+        window.addEventListener('dblclick',DbClick)
         return(
-            window.removeEventListener('dblclick',DbClick())
+            window.removeEventListener('dblclick',DbClick)
         )
     },[])
     
@@ -17,7 +16,7 @@ export default function WindowEvent (){
 
     return(
         <div>
-            <button type="button" onClick={()=>setWindowEvent(prevState=> !prevState)}>Toggle Window Event </button>
+           <h1>Window Event Active</h1>
             <footer>@ copyright Ojingwa Daniel</footer>
         </div>
     )
