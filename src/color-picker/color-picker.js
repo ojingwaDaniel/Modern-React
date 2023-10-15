@@ -20,14 +20,18 @@ const colors = [
 ];
 export default function ColorPicker(){
     const[backgroundColor,setBackgroundColor] = useState('white')
-    return(
-        <div className="page" style={backgroundColor}>
-            {colors.map(color=> <Color
-             name={color.name} 
-            hex={color.hex} 
-            SetBackgroundColor={setBackgroundColor}e/>)}
-        </div>
-
-    )
+    return (
+      <div className="page" style={{ backgroundColor }}>
+        {colors.map(color => (
+          <Color
+            key={color.hex}
+            name={color.name}
+            hex={color.hex}
+            setBackgroundColor={setBackgroundColor}
+          />)
+          )
+        }
+      </div>
+    );
     
 }
