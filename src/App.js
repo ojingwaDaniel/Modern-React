@@ -4,7 +4,8 @@ import './App.css';
 // import UsersLogin from './form-validation/userDetails';
 // import FetchDogPics from './dog-pictures/dog-pictures';
 // import ScoreKeeper from './score-keeper/score-keeper';
-import ToggleButton from './windowEvent/toggle-window-event';
+// import ToggleButton from './windowEvent/toggle-window-event';
+import ColorPicker from './color-picker/color-picker';
 
 function App() {
   return (
@@ -15,7 +16,8 @@ function App() {
         {/* <UsersLogin/> */}
         {/* <FetchDogPics/> */}
         {/* <ScoreKeeper/> */}
-        <ToggleButton/>
+        {/* <ToggleButton/> */}
+        <ColorPicker/>
 
 
 
