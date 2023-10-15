@@ -1,4 +1,4 @@
-import { useContext } from "react";
+import { useContext, useState } from "react";
 import { createContext } from "react";
 
 const ColorContest = createContext({
@@ -26,4 +26,11 @@ const ColorPicker = ()=>{
 
     )
 
+}
+const Pixel = ()=>{
+    const {color} = useContext(ColorContest)
+    const [pixelColor, setPixelColor] = useState('lightgrey')
+    return(
+        <button type="button" onClick={(=> setPixelColor(color)} style={{backgroundColor:pixelColor}}></button>
+    )
 }
