@@ -30,7 +30,42 @@ const ColorPicker = ()=>{
 const Pixel = ()=>{
     const {color} = useContext(ColorContest)
     const [pixelColor, setPixelColor] = useState('lightgrey')
+    return (
+      <button
+        type="button"
+        onClick={() => setPixelColor(color)}
+        style={{
+          height: "20px",
+          width: "20px",
+          backgroundColor: pixelColor,
+          margin: "1px",
+        }}
+      ></button>
+    );
+}
+const Pixels = ()=>{
+   const  pixels = []
+    for (let index = 0; index <100 ; index++) pixels.push(<Pixel key={index}/>)
+    return (
+      <div
+        style={{
+          display: "grid",
+          gridTemplateColumns: "repeat(10, 1fr)",
+          width: "210px",
+          margin: "0 auto",
+        }}
+      >
+        {pixels}
+      </div>
+    );
+}
+export default function PixelArt(){
+    const [color,setColor] = useState('lightgrey')
     return(
-        <button type="button" onClick={(=> setPixelColor(color)} style={{backgroundColor:pixelColor}}></button>
+        <ColorContest.Provider value={{color,setColor}}>
+        <ColorPicker/>
+        <Pixels/>
+
+        </ColorContest.Provider>
     )
 }
