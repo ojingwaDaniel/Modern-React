@@ -5,7 +5,8 @@ import './App.css';
 // import FetchDogPics from './dog-pictures/dog-pictures';
 // import ScoreKeeper from './score-keeper/score-keeper';
 // import ToggleButton from './windowEvent/toggle-window-event';
-import ColorPicker from './color-picker/color-picker';
+// import ColorPicker from './color-picker/color-picker';
+import PixelArt from './pixel-art/pixel-art';
 
 function App() {
   return (
@@ -17,7 +18,8 @@ function App() {
         {/* <FetchDogPics/> */}
         {/* <ScoreKeeper/> */}
         {/* <ToggleButton/> */}
-        <ColorPicker/>
+        {/* <ColorPicker/> */}
+        <PixelArt/>
 
 
 

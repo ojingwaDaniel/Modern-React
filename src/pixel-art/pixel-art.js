@@ -45,7 +45,7 @@ const Pixel = ()=>{
 }
 const Pixels = ()=>{
    const  pixels = []
-    for (let index = 0; index <100 ; index++) pixels.push(<Pixel key={index}/>)
+    for (let index = 0; index <1000 ; index++) pixels.push(<Pixel key={index}/>)
     return (
       <div
         style={{
