@@ -60,7 +60,7 @@ const Pixels = ()=>{
     );
 }
 export default function PixelArt(){
-    const [color,setColor] = useState('lightGray')
+    const [color,setColor] = useState('lightGrey')
     return(
         <ColorContest.Provider value={{color,setColor}}>
         <ColorPicker/>
