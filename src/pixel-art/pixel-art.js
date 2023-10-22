@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { createContext } from "react";
 
 const ColorContest = createContext({
-    color : 'lightGray',
+    color : 'lightGrey',
     setColor : ()=> {}
 })
 const ColorPicker = ()=>{
@@ -60,7 +60,7 @@ const Pixels = ()=>{
     );
 }
 export default function PixelArt(){
-    const [color,setColor] = useState('lightGray')
+    const [color,setColor] = useState('lightGrey')
     return(
         <ColorContest.Provider value={{color,setColor}}>
         <ColorPicker/>
