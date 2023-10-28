@@ -2,7 +2,7 @@ import { useContext, useState } from "react";
 import { createContext } from "react";
 
 const ColorContest = createContext({
-    color : 'lightGrey',
+    color : 'lightGray',
     setColor : ()=> {}
 })
 const ColorPicker = ()=>{
