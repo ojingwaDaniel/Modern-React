@@ -29,7 +29,7 @@ const ColorPicker = ()=>{
 }
 const Pixel = ()=>{
     const {color} = useContext(ColorContest)
-    const [pixelColor, setPixelColor] = useState('lightgray')
+    const [pixelColor, setPixelColor] = useState('lightgrey')
     return (
       <button
         type="button"
