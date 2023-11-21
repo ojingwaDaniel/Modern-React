@@ -59,16 +59,16 @@ const Pixels = ()=>{
       </div>
     );
 }
-// export default function PixelArt(){
-//     const [color,setColor] = useState('lightGray')
-//     return(
-//         <ColorContest.Provider value={{color,setColor}}>
-//         <ColorPicker/>
-//         <Pixels/>
+export default function PixelArt(){
+    const [color,setColor] = useState('lightGray')
+    return(
+        <ColorContest.Provider value={{color,setColor}}>
+        <ColorPicker/>
+        <Pixels/>
 
-//         </ColorContest.Provider>
-//     )
-// }
+        </ColorContest.Provider>
+    )
+}
 
 
 // repeated code for mastering
